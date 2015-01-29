@@ -138,7 +138,7 @@ hgla() {
   hg log --no-merges \
          --date ${1:-yesterday} \
          --template "{date(date, '%a %d.%m.%Y')} on {branch} \n {desc} \n\n" \
-         --user "Ben Ripkens" \
+         --user "Luke Eis" \
          | less
 }
 
@@ -147,7 +147,7 @@ hglac() {
   hg log --no-merges \
          --date $d \
          --template "{desc}\n" \
-         --user "Ben Ripkens" \
+         --user "Luke Eis" \
          | pbcopy
   echo "Work log for $d copied to clipboard"
 }
@@ -270,4 +270,3 @@ alias fuck='sudo $(history -p \!\!)'
 useandroid() {
   export PATH=${PATH}:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
 }
-

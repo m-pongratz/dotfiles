@@ -2,8 +2,8 @@
   ui = true
 
 [user]
-  name = Ben Ripkens
-  email = bripkens.dev@gmail.com
+  name = Luke Eis
+  email = luke.eis@unitybox.de
 
 [core]
   ignorecase = false

@@ -21,11 +21,8 @@ export M2_REPO="$HOME/.m2/repository"
 # JAVA_HOME for Oracle's JDK (avoid Java 8)
 export JAVA_HOME=$(stat -f "%N" /Library/Java/JavaVirtualMachines/jdk1.7.*/Contents/Home/ | tail -1)
 
-# ICIS+ configuration
-export ICISPLUS_REPO="$HOME/projects/icisplus/repository"
-
 # HuGO configuration
-export HUGO_REPO="$HOME/projects/hugo/repository"
+export HUGO_REPO="$HOME/Projekte/HuGO/Repository"
 
 # Always forward the 49XXX range for Docker
 export FORWARD_DOCKER_PORTS='true'

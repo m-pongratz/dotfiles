@@ -116,7 +116,7 @@ let g:multi_cursor_next_key='<C-d>' " use Ctrl-D so select multiple lines with
 
 " use tab to expand snippets
 let g:UltiSnipsExpandTrigger="<c-e>"
-let g:UltiSnipsSnippetsDir="/Users/ben/.dotfiles/.vim/snips"
+let g:UltiSnipsSnippetsDir="/Users/lukeeis/.dotfiles/.vim/snips"
 
 " search hidden files with C+P
 let g:ctrlp_show_hidden = 1
