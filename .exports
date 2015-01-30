@@ -24,6 +24,9 @@ export JAVA_HOME=$(stat -f "%N" /Library/Java/JavaVirtualMachines/jdk1.7.*/Conte
 # HuGO configuration
 export HUGO_REPO="$HOME/Projekte/HuGO/Repository"
 
+#fishingdiary configuration
+export FISHINGDIARY_REPO="$HOME/Projekte/fishingdiary/Repository"
+
 # Always forward the 49XXX range for Docker
 export FORWARD_DOCKER_PORTS='true'
 
