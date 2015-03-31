@@ -174,31 +174,32 @@ alias gitl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 alias gitre='git status --porcelain | q "select c2 from -" | grep xls | xargs git checkout'
 
 # SSH aliases
-alias ctv='ssh bripkens.de -p 46812'
+#alias ctv='ssh bripkens.de -p 46812'
 
 # Sublime Text
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-
-# ICIS+
-alias hsql="$ICISPLUS_REPO/parent/StartAndInitHSQL.bash"
-alias icisplus="cd $ICISPLUS_REPO"
-alias checkz4="ping 172.19.2.24"
-copywidgets() {
-    rm -rf $ICISPLUS_REPO/web/src/main/webapp/VAADIN/widgetsets/*
-    cp -r $ICISPLUS_REPO/vaadin.widgetset/target/widgetsets/* \
-          $ICISPLUS_REPO/web/src/main/webapp/VAADIN/widgetsets/
-    rm -rf $ICISPLUS_REPO/web/src/main/webapp/VAADIN/widgetsets/WEB-INF
-}
+#alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # HuGO
 alias hugo="cd $HUGO_REPO"
 
+#Verkaufsanwendung
+alias verkaufsanwendung="cd $VERKAUFSANWENDUNG_REPO"
+
 #fishingdiary
 alias fishingdiary="cd $FISHINGDIARY_REPO"
 
+#Heroes of the Storm Replays
+alias hots_replays="cd $HOTS_REPLAYS"
+
+#copy Heroes of the Storm Replays
+alias cp_hots_replays="~/Skripte/./HotS_Replay_Script.sh"
+
+#copy Wallpapers to related Dropbox-Directory
+alias cp_wallpapers="~/Skripte/./Wallpaper_Script.sh"
+
 # Dev tools
-alias server="open http://localhost:8000/ && python -m SimpleHTTPServer"
-alias canaryunsafe="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --disable-web-security"
+#alias server="open http://localhost:8000/ && python -m SimpleHTTPServer"
+#alias canaryunsafe="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --disable-web-security"
 
 # Show the IP addresses of this machine, with each interface that the address is on.
 ips () {

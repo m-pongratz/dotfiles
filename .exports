@@ -18,14 +18,26 @@ export EDITOR=vim
 # Maven configuration
 export M2_REPO="$HOME/.m2/repository"
 
+#Tomcat 7.0.57 Home
+export TOMCAT_HOME="/usr/local/opt/tomcat/apache-tomcat-7.0.57"
+
 # JAVA_HOME for Oracle's JDK (avoid Java 8)
 export JAVA_HOME=$(stat -f "%N" /Library/Java/JavaVirtualMachines/jdk1.7.*/Contents/Home/ | tail -1)
 
 # HuGO configuration
 export HUGO_REPO="$HOME/Projekte/HuGO/Repository"
 
+#Verkaufsanwendung REPO
+export VERKAUFSANWENDUNG_REPO="$HOME/Projekte/Verkaufsanwendung/Repository/gewerbe-verkaufsanwendung"
+
+#HuGO docbase
+export HUGO_DOCBASE="$TOMCAT_HOME/temp/docBase"
+
 #fishingdiary configuration
 export FISHINGDIARY_REPO="$HOME/Projekte/fishingdiary/Repository"
+
+#Heroes of the Storm Replay
+export HOTS_REPLAYS="$HOME/Library/Application\ Support/Blizzard/Heroes\ of\ the\ Storm/Accounts/108231733/2-Hero-1-754590/Replays/Multiplayer"
 
 # Always forward the 49XXX range for Docker
 export FORWARD_DOCKER_PORTS='true'
