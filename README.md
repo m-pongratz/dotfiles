@@ -7,7 +7,7 @@ You should therefore cherry pick the things that you actually require.
 The actual bash configuration can be linked in the following way:
 
 ```
-git clone git@github.com:l-eis/dotfiles.git ~/.dotfiles
+git clone git@github.com:m-pongratz/dotfiles.git ~/.dotfiles
 bash "~/.dotfiles/link"
 ```
 
